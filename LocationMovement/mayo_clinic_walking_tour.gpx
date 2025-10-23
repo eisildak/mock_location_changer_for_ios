@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="gpxgenerator.com">
+<!-- Mayo Clinic Phoenix Walking Route - Waypoint Format (2x Speed) -->
+<wpt lat="33.659301" lon="-111.958414">
+    <ele>331.2</ele>
+    <time>2024-01-01T08:00:00Z</time>
+</wpt>
+<wpt lat="33.659500" lon="-111.958350">
+    <ele>331.5</ele>
+    <time>2024-01-01T08:00:45Z</time>
+</wpt>
+<wpt lat="33.659800" lon="-111.958280">
+    <ele>332.1</ele>
+    <time>2024-01-01T08:01:30Z</time>
+</wpt>
+<wpt lat="33.660100" lon="-111.958200">
+    <ele>332.8</ele>
+    <time>2024-01-01T08:02:15Z</time>
+</wpt>
+<wpt lat="33.660300" lon="-111.957900">
+    <ele>333.2</ele>
+    <time>2024-01-01T08:03:00Z</time>
+</wpt>
+<wpt lat="33.660500" lon="-111.957500">
+    <ele>333.8</ele>
+    <time>2024-01-01T08:03:45Z</time>
+</wpt>
+<wpt lat="33.660300" lon="-111.957000">
+    <ele>334.1</ele>
+    <time>2024-01-01T08:04:30Z</time>
+</wpt>
+<wpt lat="33.660000" lon="-111.956500">
+    <ele>334.5</ele>
+    <time>2024-01-01T08:05:15Z</time>
+</wpt>
+<wpt lat="33.659700" lon="-111.956000">
+    <ele>335.2</ele>
+    <time>2024-01-01T08:06:00Z</time>
+</wpt>
+<wpt lat="33.659400" lon="-111.956200">
+    <ele>334.8</ele>
+    <time>2024-01-01T08:06:45Z</time>
+</wpt>
+<wpt lat="33.659000" lon="-111.956500">
+    <ele>334.2</ele>
+    <time>2024-01-01T08:07:30Z</time>
+</wpt>
+<wpt lat="33.658600" lon="-111.956800">
+    <ele>333.5</ele>
+    <time>2024-01-01T08:08:15Z</time>
+</wpt>
+<wpt lat="33.658400" lon="-111.957200">
+    <ele>332.8</ele>
+    <time>2024-01-01T08:09:00Z</time>
+</wpt>
+<wpt lat="33.658100" lon="-111.957600">
+    <ele>332.2</ele>
+    <time>2024-01-01T08:09:45Z</time>
+</wpt>
+<wpt lat="33.657800" lon="-111.958000">
+    <ele>331.5</ele>
+    <time>2024-01-01T08:10:30Z</time>
+</wpt>
+<wpt lat="33.657600" lon="-111.958300">
+    <ele>331.1</ele>
+    <time>2024-01-01T08:11:15Z</time>
+</wpt>
+<wpt lat="33.657400" lon="-111.958600">
+    <ele>330.8</ele>
+    <time>2024-01-01T08:12:00Z</time>
+</wpt>
+<wpt lat="33.657600" lon="-111.959000">
+    <ele>330.5</ele>
+    <time>2024-01-01T08:12:45Z</time>
+</wpt>
+<wpt lat="33.657900" lon="-111.959500">
+    <ele>330.2</ele>
+    <time>2024-01-01T08:13:30Z</time>
+</wpt>
+<wpt lat="33.658200" lon="-111.960000">
+    <ele>329.8</ele>
+    <time>2024-01-01T08:14:15Z</time>
+</wpt>
+<wpt lat="33.658500" lon="-111.960300">
+    <ele>329.5</ele>
+    <time>2024-01-01T08:15:00Z</time>
+</wpt>
+<wpt lat="33.658800" lon="-111.960600">
+    <ele>329.2</ele>
+    <time>2024-01-01T08:15:45Z</time>
+</wpt>
+<wpt lat="33.659100" lon="-111.960400">
+    <ele>329.8</ele>
+    <time>2024-01-01T08:16:30Z</time>
+</wpt>
+<wpt lat="33.659500" lon="-111.960100">
+    <ele>330.5</ele>
+    <time>2024-01-01T08:17:15Z</time>
+</wpt>
+<wpt lat="33.659900" lon="-111.959800">
+    <ele>331.2</ele>
+    <time>2024-01-01T08:18:00Z</time>
+</wpt>
+<wpt lat="33.660300" lon="-111.959500">
+    <ele>331.8</ele>
+    <time>2024-01-01T08:18:45Z</time>
+</wpt>
+<wpt lat="33.660600" lon="-111.959200">
+    <ele>332.5</ele>
+    <time>2024-01-01T08:19:30Z</time>
+</wpt>
+<wpt lat="33.660900" lon="-111.958900">
+    <ele>333.1</ele>
+    <time>2024-01-01T08:20:15Z</time>
+</wpt>
+<wpt lat="33.661200" lon="-111.958600">
+    <ele>333.8</ele>
+    <time>2024-01-01T08:21:00Z</time>
+</wpt>
+<wpt lat="33.660900" lon="-111.958300">
+    <ele>333.2</ele>
+    <time>2024-01-01T08:21:45Z</time>
+</wpt>
+<wpt lat="33.660600" lon="-111.958000">
+    <ele>332.8</ele>
+    <time>2024-01-01T08:22:30Z</time>
+</wpt>
+<wpt lat="33.660200" lon="-111.958100">
+    <ele>332.2</ele>
+    <time>2024-01-01T08:23:15Z</time>
+</wpt>
+<wpt lat="33.659800" lon="-111.958200">
+    <ele>331.8</ele>
+    <time>2024-01-01T08:24:00Z</time>
+</wpt>
+<wpt lat="33.659600" lon="-111.958300">
+    <ele>331.5</ele>
+    <time>2024-01-01T08:24:45Z</time>
+</wpt>
+<wpt lat="33.659450" lon="-111.958350">
+    <ele>331.3</ele>
+    <time>2024-01-01T08:25:15Z</time>
+</wpt>
+<wpt lat="33.659301" lon="-111.958414">
+    <ele>331.2</ele>
+    <time>2024-01-01T08:25:30Z</time>
+</wpt>
+</gpx>

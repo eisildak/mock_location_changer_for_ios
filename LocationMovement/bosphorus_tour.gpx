@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Xcode">
+    <!-- Bosphorus Bridge Tour -->
+    <trk>
+        <name>Bosphorus Tour</name>
+        <trkseg>
+            <trkpt lat="41.039200" lon="29.025600">
+                <time>2024-01-01T12:00:00Z</time>
+            </trkpt>
+            <trkpt lat="41.043500" lon="29.020000">
+                <time>2024-01-01T12:02:00Z</time>
+            </trkpt>
+            <trkpt lat="41.048000" lon="29.015000">
+                <time>2024-01-01T12:04:00Z</time>
+            </trkpt>
+            <trkpt lat="41.052000" lon="29.010000">
+                <time>2024-01-01T12:06:00Z</time>
+            </trkpt>
+            <trkpt lat="41.055000" lon="29.005000">
+                <time>2024-01-01T12:08:00Z</time>
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>
