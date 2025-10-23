@@ -213,4 +213,8 @@ For issues related to:
 
 ---
 
+<<<<<<< HEAD
 **Note**: This tool is designed for development and testing purposes. Always respect user privacy and location data handling best practices in production applications.
+=======
+**Note**: This tool is designed for development and testing purposes. Always respect user privacy and location data handling best practices in production applications.
+>>>>>>> eea29355634e86eeaf5687493b244a19db7035d7
