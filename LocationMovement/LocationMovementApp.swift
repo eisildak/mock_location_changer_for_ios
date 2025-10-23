@@ -1,10 +1,3 @@
-//
-//  LocationMovementApp.swift
-//  LocationMovement
-//
-//  Created by Putu Kusumawardhani & David Lam on 5.01.2022.
-//  Copyright (c) 2022 Testlio. All rights reserved.
-
 import SwiftUI
 import UIKit
 import CoreLocation
