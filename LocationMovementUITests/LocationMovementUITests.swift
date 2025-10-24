@@ -1,10 +1,3 @@
-//
-//  LocationMovementUITests.swift
-//  LocationMovementUITests
-//
-//  Created by Putu Kusumawardhani on 25.11.2021.
-//
-
 import XCTest
 
 class LocationMovementUITests: XCTestCase {

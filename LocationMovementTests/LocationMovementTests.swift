@@ -1,10 +1,3 @@
-//
-//  LocationMovementTests.swift
-//  LocationMovementTests
-//
-//  Created by Putu Kusumawardhani on 25.11.2021.
-//
-
 import XCTest
 @testable import LocationMovement
 

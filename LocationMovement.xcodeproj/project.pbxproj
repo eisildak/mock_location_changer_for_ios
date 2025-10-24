@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7BD808732EAA5F9400029D67 /* mayo_clinic_phoenix.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 7BD808722EAA5F9400029D67 /* mayo_clinic_phoenix.gpx */; };
+		7BD808752EAA7EDB00029D67 /* boston_logan_airport.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 7BD808742EAA7EDB00029D67 /* boston_logan_airport.gpx */; };
 		CB4C2CFA274F688900D51033 /* LocationMovementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4C2CF9274F688900D51033 /* LocationMovementApp.swift */; };
 		CB4C2CFC274F688900D51033 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4C2CFB274F688900D51033 /* ContentView.swift */; };
 		CB4C2CFE274F688A00D51033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4C2CFD274F688A00D51033 /* Assets.xcassets */; };
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7BD808722EAA5F9400029D67 /* mayo_clinic_phoenix.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = mayo_clinic_phoenix.gpx; path = LocationMovement/mayo_clinic_phoenix.gpx; sourceTree = "<group>"; };
+		7BD808742EAA7EDB00029D67 /* boston_logan_airport.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = boston_logan_airport.gpx; path = LocationMovement/boston_logan_airport.gpx; sourceTree = "<group>"; };
 		CB4C2CF6274F688900D51033 /* LocationMovement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationMovement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4C2CF9274F688900D51033 /* LocationMovementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMovementApp.swift; sourceTree = "<group>"; };
 		CB4C2CFB274F688900D51033 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 		CB4C2CED274F688900D51033 = {
 			isa = PBXGroup;
 			children = (
-				7BD808722EAA5F9400029D67 /* mayo_clinic_phoenix.gpx */,
+				7BD808742EAA7EDB00029D67 /* boston_logan_airport.gpx */,
 				CB4C2CF8274F688900D51033 /* LocationMovement */,
 				CB4C2D09274F688B00D51033 /* LocationMovementTests */,
 				CB4C2D13274F688B00D51033 /* LocationMovementUITests */,
@@ -236,8 +236,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BD808732EAA5F9400029D67 /* mayo_clinic_phoenix.gpx in Resources */,
 				CB4C2D01274F688A00D51033 /* Preview Assets.xcassets in Resources */,
+				7BD808752EAA7EDB00029D67 /* boston_logan_airport.gpx in Resources */,
 				CB4C2CFE274F688A00D51033 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
