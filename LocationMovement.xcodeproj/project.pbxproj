@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7BD808752EAA7EDB00029D67 /* boston_logan_airport.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 7BD808742EAA7EDB00029D67 /* boston_logan_airport.gpx */; };
+		9B6BB51E2EF15D6B00C543EA /* boston_logan_airport-move.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9B6BB51D2EF15D6B00C543EA /* boston_logan_airport-move.gpx */; };
+		9BAFCFD32EFA8A29001A96CF /* boston_logan_airport.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9BAFCFD22EFA8A29001A96CF /* boston_logan_airport.gpx */; };
+		9BAFCFD72EFA96A6001A96CF /* enter-GPX.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9BAFCFD62EFA96A6001A96CF /* enter-GPX.gpx */; };
 		CB4C2CFA274F688900D51033 /* LocationMovementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4C2CF9274F688900D51033 /* LocationMovementApp.swift */; };
 		CB4C2CFC274F688900D51033 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4C2CFB274F688900D51033 /* ContentView.swift */; };
 		CB4C2CFE274F688A00D51033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4C2CFD274F688A00D51033 /* Assets.xcassets */; };
-		CB4C2D01274F688A00D51033 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4C2D00274F688A00D51033 /* Preview Assets.xcassets */; };
 		CB4C2D0B274F688B00D51033 /* LocationMovementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4C2D0A274F688B00D51033 /* LocationMovementTests.swift */; };
 		CB4C2D15274F688B00D51033 /* LocationMovementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4C2D14274F688B00D51033 /* LocationMovementUITests.swift */; };
 		CB4C2D17274F688B00D51033 /* LocationMovementUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4C2D16274F688B00D51033 /* LocationMovementUITestsLaunchTests.swift */; };
@@ -35,7 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7BD808742EAA7EDB00029D67 /* boston_logan_airport.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = boston_logan_airport.gpx; path = LocationMovement/boston_logan_airport.gpx; sourceTree = "<group>"; };
+		9B6BB51D2EF15D6B00C543EA /* boston_logan_airport-move.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "boston_logan_airport-move.gpx"; sourceTree = "<group>"; };
+		9BAFCFD22EFA8A29001A96CF /* boston_logan_airport.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = boston_logan_airport.gpx; sourceTree = "<group>"; };
+		9BAFCFD62EFA96A6001A96CF /* enter-GPX.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "enter-GPX.gpx"; sourceTree = "<group>"; };
 		CB4C2CF6274F688900D51033 /* LocationMovement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationMovement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4C2CF9274F688900D51033 /* LocationMovementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMovementApp.swift; sourceTree = "<group>"; };
 		CB4C2CFB274F688900D51033 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,7 +80,9 @@
 		CB4C2CED274F688900D51033 = {
 			isa = PBXGroup;
 			children = (
-				7BD808742EAA7EDB00029D67 /* boston_logan_airport.gpx */,
+				9BAFCFD22EFA8A29001A96CF /* boston_logan_airport.gpx */,
+				9BAFCFD62EFA96A6001A96CF /* enter-GPX.gpx */,
+				9B6BB51D2EF15D6B00C543EA /* boston_logan_airport-move.gpx */,
 				CB4C2CF8274F688900D51033 /* LocationMovement */,
 				CB4C2D09274F688B00D51033 /* LocationMovementTests */,
 				CB4C2D13274F688B00D51033 /* LocationMovementUITests */,
@@ -236,9 +241,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB4C2D01274F688A00D51033 /* Preview Assets.xcassets in Resources */,
-				7BD808752EAA7EDB00029D67 /* boston_logan_airport.gpx in Resources */,
+				9BAFCFD72EFA96A6001A96CF /* enter-GPX.gpx in Resources */,
 				CB4C2CFE274F688A00D51033 /* Assets.xcassets in Resources */,
+				9BAFCFD32EFA8A29001A96CF /* boston_logan_airport.gpx in Resources */,
+				9B6BB51E2EF15D6B00C543EA /* boston_logan_airport-move.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,11 +433,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LocationMovement/Preview Content\"";
-				DEVELOPMENT_TEAM = J5BX2QGBJK;
+				DEVELOPMENT_TEAM = JX492H2JBP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LocationMovement/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app needs location access to simulate GPS locations in the background.";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "to keep app running";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs location access to simulate GPS locations.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -443,7 +451,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-234testlio.LocationMovement";
+				PRODUCT_BUNDLE_IDENTIFIER = erolcom.LocationChanger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -459,11 +467,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LocationMovement/Preview Content\"";
-				DEVELOPMENT_TEAM = J5BX2QGBJK;
+				DEVELOPMENT_TEAM = JX492H2JBP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LocationMovement/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app needs location access to simulate GPS locations in the background.";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "to keep app running";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs location access to simulate GPS locations.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -475,7 +485,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-234testlio.LocationMovement";
+				PRODUCT_BUNDLE_IDENTIFIER = erolcom.LocationChanger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

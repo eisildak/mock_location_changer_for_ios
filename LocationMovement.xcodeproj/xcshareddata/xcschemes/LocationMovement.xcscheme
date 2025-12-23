@@ -71,7 +71,7 @@
          </BuildableReference>
       </BuildableProductRunnable>
       <LocationScenarioReference
-         identifier = "../../LocationMovement/boston_logan_airport.gpx"
+         identifier = "../../enter-GPX.gpx"
          referenceType = "0">
       </LocationScenarioReference>
    </LaunchAction>

@@ -46,18 +46,11 @@ struct ContentView: View {
                         .font(.system(size: 80))
                         .foregroundColor(.blue)
                     
-                    VStack(spacing: 5) {
-                        Text("Pointr")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
-                            .foregroundColor(.blue)
-                        
-                        Text("LocationMovement")
-                            .font(.title)
-                            .fontWeight(.medium)
-                            .foregroundColor(.black)
-                    }
-                    .multilineTextAlignment(.center)
+                    Text("LocationMovement")
+                        .font(.title)
+                        .fontWeight(.medium)
+                        .foregroundColor(.black)
+                        .multilineTextAlignment(.center)
                 }
                 .padding(.top, 50)
                 
@@ -81,52 +74,69 @@ struct ContentView: View {
                 .padding(.horizontal, 20)
                 
                 // Instructions section
-                VStack(spacing: 20) {
+                ScrollView {
                     VStack(spacing: 15) {
-                        HStack {
+                        HStack(alignment: .top, spacing: 12) {
                             Image(systemName: "1.circle.fill")
                                 .foregroundColor(.blue)
-                                .font(.title2)
+                                .font(.title3)
+                                .frame(width: 30)
                             Text("Open your Maps to verify")
-                                .font(.headline)
+                                .font(.subheadline)
                                 .foregroundColor(.black)
-                                .multilineTextAlignment(.leading)
-                            Spacer()
+                                .fixedSize(horizontal: false, vertical: true)
+                            Spacer(minLength: 0)
                         }
-                        .padding(.horizontal)
                         
-                        HStack {
+                        HStack(alignment: .top, spacing: 12) {
                             Image(systemName: "2.circle.fill")
                                 .foregroundColor(.green)
-                                .font(.title2)
+                                .font(.title3)
+                                .frame(width: 30)
                             Text("Check your mock location coordinates")
-                                .font(.headline)
+                                .font(.subheadline)
                                 .foregroundColor(.black)
-                                .multilineTextAlignment(.leading)
-                            Spacer()
+                                .fixedSize(horizontal: false, vertical: true)
+                            Spacer(minLength: 0)
                         }
-                        .padding(.horizontal)
                         
-                        HStack {
+                        HStack(alignment: .top, spacing: 12) {
                             Image(systemName: "3.circle.fill")
                                 .foregroundColor(.orange)
-                                .font(.title2)
+                                .font(.title3)
+                                .frame(width: 30)
                             Text("GPX files are configured in Xcode")
-                                .font(.headline)
+                                .font(.subheadline)
                                 .foregroundColor(.black)
-                                .multilineTextAlignment(.leading)
-                            Spacer()
+                                .fixedSize(horizontal: false, vertical: true)
+                            Spacer(minLength: 0)
                         }
-                        .padding(.horizontal)
                     }
-                    .padding()
-                    .background(Color.white.opacity(0.8))
-                    .cornerRadius(15)
-                    .shadow(color: .gray.opacity(0.3), radius: 5, x: 0, y: 2)
+                    .padding(.vertical, 15)
+                    .padding(.horizontal, 15)
                 }
+                .frame(height: 150)
+                .background(Color.white.opacity(0.8))
+                .cornerRadius(15)
+                .shadow(color: .gray.opacity(0.3), radius: 5, x: 0, y: 2)
                 .padding(.horizontal, 20)
                 
                 Spacer()
+                
+                // Info Note
+                VStack(spacing: 8) {
+                    HStack {
+                        Image(systemName: "info.circle.fill")
+                            .foregroundColor(.blue)
+                        Text("To disable Mock GPS, stop the app run from Xcode")
+                            .font(.subheadline)
+                            .foregroundColor(.black)
+                    }
+                }
+                .padding()
+                .background(Color.blue.opacity(0.1))
+                .cornerRadius(15)
+                .padding(.horizontal, 20)
                 
                 // Status indicator
                 HStack {
