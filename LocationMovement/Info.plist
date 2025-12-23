@@ -9,9 +9,5 @@
 		<string>audio</string>
 		<string>location</string>
 	</array>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>This app needs location access to simulate GPS locations.</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>This app needs location access to simulate GPS locations in the background.</string>
 </dict>
 </plist>

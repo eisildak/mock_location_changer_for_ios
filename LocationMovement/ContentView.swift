@@ -2,6 +2,11 @@ import SwiftUI
 import MapKit
 
 struct ContentView: View {
+    @State private var region = MKCoordinateRegion(
+        center: CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194),
+        span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+    )
+    
     var body: some View {
         ZStack {
             // Background gradient
@@ -35,6 +40,19 @@ struct ContentView: View {
                 .padding(.top, 50)
                 
                 Spacer()
+                
+                // Mini Map
+                Map(coordinateRegion: $region, annotationItems: [MapLocation(coordinate: region.center)]) { location in
+                    MapMarker(coordinate: location.coordinate, tint: .blue)
+                }
+                .frame(width: 200, height: 150)
+                .cornerRadius(15)
+                .shadow(color: .black.opacity(0.3), radius: 5, x: 0, y: 2)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 15)
+                        .stroke(Color.blue, lineWidth: 2)
+                )
+                .padding(.horizontal, 20)
                 
                 // Instructions section
                 VStack(spacing: 20) {
@@ -109,6 +127,11 @@ struct ContentView: View {
             }
         }
     }
+}
+
+struct MapLocation: Identifiable {
+    let id = UUID()
+    let coordinate: CLLocationCoordinate2D
 }
 
 struct ContentView_Previews: PreviewProvider {
