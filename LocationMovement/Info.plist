@@ -9,5 +9,7 @@
 		<string>audio</string>
 		<string>location</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to display it on the mini map</string>
 </dict>
 </plist>

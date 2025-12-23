@@ -1,11 +1,33 @@
 import SwiftUI
 import MapKit
 
-struct ContentView: View {
-    @State private var region = MKCoordinateRegion(
+class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
+    private let manager = CLLocationManager()
+    @Published var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194),
         span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
     )
+    
+    override init() {
+        super.init()
+        manager.delegate = self
+        manager.requestWhenInUseAuthorization()
+        manager.startUpdatingLocation()
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        guard let location = locations.last else { return }
+        DispatchQueue.main.async {
+            self.region = MKCoordinateRegion(
+                center: location.coordinate,
+                span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+            )
+        }
+    }
+}
+
+struct ContentView: View {
+    @StateObject private var locationManager = LocationManager()
     
     var body: some View {
         ZStack {
@@ -42,16 +64,20 @@ struct ContentView: View {
                 Spacer()
                 
                 // Mini Map
-                Map(coordinateRegion: $region, annotationItems: [MapLocation(coordinate: region.center)]) { location in
-                    MapMarker(coordinate: location.coordinate, tint: .blue)
+                GeometryReader { geometry in
+                    Map(coordinateRegion: $locationManager.region, annotationItems: [MapLocation(coordinate: locationManager.region.center)]) { location in
+                        MapMarker(coordinate: location.coordinate, tint: .blue)
+                    }
+                    .frame(width: geometry.size.width * 0.85, height: 180)
+                    .cornerRadius(15)
+                    .shadow(color: .black.opacity(0.3), radius: 5, x: 0, y: 2)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 15)
+                            .stroke(Color.blue, lineWidth: 2)
+                    )
+                    .frame(width: geometry.size.width)
                 }
-                .frame(width: 200, height: 150)
-                .cornerRadius(15)
-                .shadow(color: .black.opacity(0.3), radius: 5, x: 0, y: 2)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 15)
-                        .stroke(Color.blue, lineWidth: 2)
-                )
+                .frame(height: 180)
                 .padding(.horizontal, 20)
                 
                 // Instructions section
